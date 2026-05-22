@@ -19,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Masakan Indonesia" className="w-full h-full object-cover object-center" />
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Masakan Indonesia" className="w-full h-full object-cover object-center" />
             <div className="absolute inset-0 glass-dark"></div>
         </div>
         
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row items-center gap-16">
                 <motion.div initial={{ opacity:0, x: -50 }} whileInView={{ opacity:1, x:0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="lg:w-1/2">
                     <div className="relative">
-                        <img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dapur Mamaku" className="rounded-3xl shadow-2xl object-cover h-[500px] w-full" />
+                        <img src="https://images.pexels.com/photos/3771801/pexels-photo-3771801.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Dapur Mamaku" className="rounded-3xl shadow-2xl object-cover h-[500px] w-full" />
                         <div className="absolute -bottom-8 -right-8 glass p-6 rounded-2xl hidden md:block">
                             <div className="text-4xl font-bold text-mamaku-orange mb-1">10+</div>
                             <div className="text-sm font-semibold text-gray-700">Tahun<br/>Pengalaman</div>
@@ -103,7 +103,7 @@ export default function Home() {
                 {/* Pack 1 */}
                 <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="glass bg-white/60 rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
                     <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1548943487-a2e4b43b4850?auto=format&fit=crop&w=500&q=80" alt="Paket 1" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <img src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Paket 1" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div className="inline-block bg-orange-100 text-mamaku-orange px-3 py-1 rounded-full text-xs font-bold mb-4">25 PORSI</div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Pack 1</h3>
@@ -121,7 +121,7 @@ export default function Home() {
                 <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }} className="glass bg-white rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300 border-2 border-mamaku-orange relative overflow-hidden shadow-xl group">
                     <div className="absolute top-0 right-0 bg-mamaku-orange text-white px-4 py-1 rounded-bl-xl font-bold text-sm z-10">BEST SELLER</div>
                     <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80" alt="Paket 2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <img src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Paket 2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div className="inline-block bg-orange-100 text-mamaku-orange px-3 py-1 rounded-full text-xs font-bold mb-4">50 PORSI</div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Pack 2</h3>
@@ -140,7 +140,7 @@ export default function Home() {
                 <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.4 }} className="glass bg-white/60 rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden group">
                     <div className="absolute top-0 right-0 bg-mamaku-brown text-white px-4 py-1 rounded-bl-xl font-bold text-sm z-10">VIP</div>
                     <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1627012046830-229b139bf4d2?auto=format&fit=crop&w=500&q=80" alt="Paket 3" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Paket 3" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div className="inline-block bg-orange-100 text-mamaku-orange px-3 py-1 rounded-full text-xs font-bold mb-4">100 PORSI</div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Pack 3</h3>
@@ -167,35 +167,35 @@ export default function Home() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
                 <motion.div variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} className="col-span-2 row-span-2 rounded-2xl overflow-hidden relative group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80" alt="Rendang" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://images.pexels.com/photos/10582860/pexels-photo-10582860.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Rendang" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                         <h3 className="text-white text-xl font-bold text-shadow">Rendang Daging Asli</h3>
                     </div>
                 </motion.div>
                 
                 <motion.div variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.1 }} className="rounded-2xl overflow-hidden relative group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=400&q=80" alt="Nasi Kuning" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Nasi Kuning" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <h3 className="text-white font-bold">Nasi Kuning</h3>
                     </div>
                 </motion.div>
 
                 <motion.div variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }} className="rounded-2xl overflow-hidden relative group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1548943487-a2e4b43b4850?auto=format&fit=crop&w=400&q=80" alt="Ayam Bakar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://images.pexels.com/photos/12739943/pexels-photo-12739943.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ayam Bakar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <h3 className="text-white font-bold">Ayam Bakar Bumbu Rujak</h3>
                     </div>
                 </motion.div>
 
                 <motion.div variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.3 }} className="rounded-2xl overflow-hidden relative group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1548946522-4a313e8972a4?auto=format&fit=crop&w=400&q=80" alt="Soto Ayam" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://images.pexels.com/photos/4181954/pexels-photo-4181954.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Soto Ayam" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <h3 className="text-white font-bold">Soto Segar</h3>
                     </div>
                 </motion.div>
 
                 <motion.div variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.4 }} className="rounded-2xl overflow-hidden relative group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1626844131082-256783844137?auto=format&fit=crop&w=400&q=80" alt="Sambal" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://images.pexels.com/photos/11143876/pexels-photo-11143876.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Sambal" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <h3 className="text-white font-bold">Lalapan & Sambal</h3>
                     </div>
